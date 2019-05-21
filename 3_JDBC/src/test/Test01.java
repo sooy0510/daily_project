@@ -17,7 +17,7 @@ public class Test01 {
 		String user="scott";
 		String pw="TIGER";
 		
-		Connection con = null;
+		Connection con = null; 
 		Statement st = null;
 		ResultSet rs = null;
 		try {

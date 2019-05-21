@@ -19,7 +19,7 @@ public class Test02 {
 		//emp 부서별 평균 급여(소수점 두자리 표시)와 인원수를 구해서 출력
 		
 		Connection con = null;
-		Statement st = null;
+		Statement st = null; 
 		ResultSet rs = null;
 		
 		

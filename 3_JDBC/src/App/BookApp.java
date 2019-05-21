@@ -19,7 +19,7 @@ public class BookApp {
 		try {
 			service.addBook(user);
 		} catch (Exception e) {
-			System.out.println("등록 데이터 확인 필요");
+			System.out.println("등록 데이터 확인 필요"); 
 			//e.printStackTrace();
 		}
 		

@@ -24,7 +24,7 @@ public class Test08_select_list {
 		int row = 0;
 		
 		List<BookVO> books = new ArrayList<BookVO>();
-		Map<Integer, String> book2 = new HashMap<Integer, String>();
+		Map<Integer, String> book2 = new HashMap<Integer, String>(); 
 		
 		
 		try {

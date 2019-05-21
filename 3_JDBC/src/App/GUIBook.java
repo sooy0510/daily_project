@@ -26,7 +26,7 @@ public class GUIBook {
 	TextArea textArea = null;
 	TextField title,price,author;
 	Button list,insert;
-	
+	 
 	public GUIBook() {
 		f = new Frame("BOOK App");
 		textArea = new TextArea(20,20);

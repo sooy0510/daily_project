@@ -21,7 +21,7 @@ public class Test05_delete {
 		try {
 			con = JDBCUtil.getConnection();
 			ps = con.prepareStatement(sql); 
-			//?셋팅작업
+			//?셋팅작업 
 			ps.setInt(1, 11);
 			//실행
 			row = ps.executeUpdate();

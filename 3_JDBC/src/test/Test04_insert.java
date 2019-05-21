@@ -20,7 +20,7 @@ public class Test04_insert {
 		int row = 0;
 		
 		try {
-			con = JDBCUtil.getConnection();
+			con = JDBCUtil.getConnection(); 
 			ps = con.prepareStatement(sql); 
 			//?셋팅작업
 			ps.setString(1, "Spring");

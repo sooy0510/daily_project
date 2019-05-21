@@ -20,7 +20,7 @@ public class Template {
 		int row = 0;
 		
 		try {
-			con = JDBCUtil.getConnection();
+			con = JDBCUtil.getConnection(); 
 			st = con.createStatement();
 			ps = con.prepareStatement(sql); 
 			//?셋팅작업

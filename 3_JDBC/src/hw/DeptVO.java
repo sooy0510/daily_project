@@ -11,7 +11,7 @@ public class DeptVO {
 	}
 	public DeptVO(int deptno, String dname, String loc) {
 		super();
-		this.deptno = deptno;
+		this.deptno = deptno; 
 		this.dname = dname;
 		this.loc = loc;
 	}

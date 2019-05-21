@@ -11,7 +11,7 @@ import util.JDBCUtil;
 public class Test07_select {
 	public static void main(String[] args) {
 		String sql = "select * from book";
-		String upsql = "update book set author=?";
+		String upsql = "update book set author=?"; 
 		
 		Connection con = null;
 		Statement st = null;

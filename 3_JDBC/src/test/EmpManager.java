@@ -21,8 +21,8 @@ public class EmpManager {
 				+ " from employees e, jobs j"
 				+ " where e.job_id = j.job_id"
 				+ " and j.job_title in (?,?)";
-		
-		Connection con = null;
+		 
+		Connection con = null; 
 		PreparedStatement ps = null;
 		ResultSet rs = null;
 		

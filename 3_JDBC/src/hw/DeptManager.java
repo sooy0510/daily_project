@@ -18,7 +18,7 @@ public class DeptManager {
 		PreparedStatement ps = null;
 		ResultSet rs = null;
 		
-		
+		 
 		try {
 			con = JDBCUtil.getConnection();
 			ps = con.prepareStatement(sql);

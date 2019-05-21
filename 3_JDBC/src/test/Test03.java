@@ -17,7 +17,7 @@ public class Test03 {
 		
 		Connection con = null;
 		Statement st = null;
-		PreparedStatement ps = null;
+		PreparedStatement ps = null; 
 		ResultSet rs = null;
 		int row = 0;
 		

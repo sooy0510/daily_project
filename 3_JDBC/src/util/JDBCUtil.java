@@ -14,7 +14,7 @@ public class JDBCUtil {
 	public static Connection getConnection() {
 		String driver="oracle.jdbc.OracleDriver";
 		String url="jdbc:oracle:thin:@70.12.115.59:1521:xe";
-		String user="scott";
+		String user="scott";  
 		String pw="TIGER";
 		
 		Connection con = null;

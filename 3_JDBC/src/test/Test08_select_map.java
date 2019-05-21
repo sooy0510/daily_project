@@ -21,7 +21,7 @@ public class Test08_select_map {
 		Statement st = null;
 		PreparedStatement ps = null;
 		ResultSet rs = null;
-		int row = 0;
+		int row = 0; 
 		
 		Map<Integer, BookVO> books = new HashMap<Integer, BookVO>();
 		

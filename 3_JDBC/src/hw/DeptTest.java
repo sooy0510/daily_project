@@ -15,3 +15,4 @@ public class DeptTest {
 		list.forEach(i->System.out.println(i));
 	}
 }
+ 

@@ -15,7 +15,7 @@ public class BookVO {
 		super();
 		this.title = title;
 		this.author = author;
-		this.price = price;
+		this.price = price; 
 	}
 
 	public BookVO(int bookno, String title, String author, int price, String pubdat) {
